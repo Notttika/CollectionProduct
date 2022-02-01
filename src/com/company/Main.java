@@ -27,9 +27,7 @@ public class Main {
 
         int price = 0;
         int withAt = 0;
-        Product a;
             for (Product prod : productList) {
-                a = prod;
                 if (prod.getType().equals(ProductType.clothes)) {
                     productsClothes.add(prod);
                 }
